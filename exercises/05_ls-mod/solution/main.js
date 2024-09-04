@@ -4,6 +4,7 @@ import { readdir } from 'node:fs/promises';
 import { dirname } from 'node:path';
 import {listingExtension} from './filter.js';
 
+
 const filePath = process.argv[1];
 const myDir = path.dirname(filePath);
 
